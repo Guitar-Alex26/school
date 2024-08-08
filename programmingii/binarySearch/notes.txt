@@ -1,0 +1,4 @@
+Lesson learned: using Scanner, how to read and compile an array of found doubles that are then sorted and printed out;
+learned how to handle Scanner and exploring its potential.
+
+No bugs or errors encountered in final product.

@@ -1,0 +1,3 @@
+Today I've learned how to handle possible files exceptions.
+
+No bugs or errors found on my end.

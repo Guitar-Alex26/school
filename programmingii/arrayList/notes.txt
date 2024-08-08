@@ -1,0 +1,2 @@
+Learned how to read, create, and manipulate array data in an ArrayList.
+Quite a pain to work with at first, parsing and what not; I'm sure it has its uses over "built-in" arrays

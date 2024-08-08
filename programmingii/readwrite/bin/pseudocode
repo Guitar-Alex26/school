@@ -1,0 +1,49 @@
+public static void change(String name) {
+        String file = name;
+        int newValue = 1000; // New value for the second integer
+
+        // Step 1: Read the file and store integers in a list
+        List<Integer> integers = readIntegersFromFile(file);
+
+        // Step 2: Modify the second integer if there are at least two integers
+        if (integers.size() >= 2) {
+            integers.set(1, newValue); // Update the second integer (index 1)
+        }
+
+        // Step 3: Write the updated list of integers back to the file
+        writeIntegersToFile(file, integers);
+    }
+
+    // Method to read integers from the file into a list
+    public static List<Integer> readIntegersFromFile(String file) {
+        List<Integer> integers = new ArrayList<>();
+        try (Scanner scanner = new Scanner(new File(file))) {
+            while (scanner.hasNext()) {
+                if (scanner.hasNextInt()) {
+                    integers.add(scanner.nextInt());
+                } else {
+                    scanner.next(); // Skip non-integer tokens
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred while reading the file.");
+            e.printStackTrace();
+        }
+        return integers;
+    }
+
+    // Method to write a list of integers to the file
+    public static void writeIntegersToFile(String file, List<Integer> integers) {
+        try (FileWriter writer = new FileWriter(new File(file))) {
+            for (int i = 0; i < integers.size(); i++) {
+                writer.write(integers.get(i).toString());
+                if (i < integers.size() - 1) {
+                    writer.write(" "); // Separate integers by space
+                }
+            }
+            writer.write(System.lineSeparator()); // Optional: Add a newline at the end
+        } catch (IOException e) {
+            System.out.println("An error occurred while writing to the file.");
+            e.printStackTrace();
+        }
+    }

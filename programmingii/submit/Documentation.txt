@@ -1,0 +1,7 @@
+c) The method print represents what object-oriented programming concept?
+Answer: may represent "passing" data as the argument or parameter; polymorphism, if you will. where a single method can operate sufficiently on different data types;
+
+Lesson? Today, I've learned how to handle two dimensional arrays in Java, and how to loop assignment to each specific value.
+
+Sorry this isn't a Word document... I am broke. I can use Google Docs and convert to Word, if that would be satisfactory.
+Thank you for your patience; do forgive my tardiness -- it's been quite a week. I appreciate it.

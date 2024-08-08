@@ -1,0 +1,3 @@
+Lesson learned: easiest way to sort an array. I tried to implement an idea of my own, but it didn't work out.
+
+No bugs or error encountered in final product.

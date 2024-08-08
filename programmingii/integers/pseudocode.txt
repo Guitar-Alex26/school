@@ -1,0 +1,31 @@
+Create file -
+Grab name, store
+Check if file exists; if not, make
+
+Delete file -
+Grab name, store
+delete file
+
+Write to file -
+Check if file exists; if so, prompt how many integers user would like to write to file
+
+Read file -
+Read the file, print on screen
+
+Start program
+Selection menu -
+Create, delete, write, etc
+(Use ints to select an option)
+Grab name of text file
+Make a selection
+Insert text file name into selection
+Do task
+Exit program
+
+VERY basic outline of mine
+
+Sorry if this is brief, as my program quickly spiraled and I didn't keep up with it and threw the previous plan out the window.
+(Typical of programmers, no? Haha)
+
+P.S. Hopefully my humor isn't assumed to be disrespectful and doesn't affect my grade. Let me know if it does!
+Thank you.

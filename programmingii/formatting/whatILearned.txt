@@ -1,0 +1,3 @@
+Today, I've learned how simple, yet complex printf can be, in addition to how versatile and just how useful it may be.
+
+No bugs or errors encountered.

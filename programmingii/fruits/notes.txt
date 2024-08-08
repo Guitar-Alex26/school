@@ -1,0 +1,4 @@
+ArrayList was, in my opinion, a pain to work with -- but I'm satisfied with my learning experience.
+I've learned how to create new objects of ArrayList and how to handle them via loops.
+
+No bugs or errors encountered in final product.

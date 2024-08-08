@@ -1,0 +1,40 @@
+// Alexander Quirk
+
+START
+
+array ints = [nums]
+minimum = ints[0]
+
+// Find smallest int
+
+for (each int in array(ints)):
+	if (minimum > int[i]):
+		minimum = int[i]
+// Swap found min with first element
+	swap = int[i]
+	ints[min] = ints[i];
+        ints[i] = swap;
+
+// Sort array
+
+for (each int in array(ints)):
+	min = ints[0]
+	for (each int in array(ints)):
+		if (ints[j] < ints[min]):
+			min = j
+
+// Reverse array
+
+for (each int in array):
+	reversedInts[pos] = ints[i]
+	pos++;
+
+// Print reversed array
+
+print(reversedArray)
+
+END
+
+Sorry if this seems rushed; I finished the project earlier today, had work, then realized I had to write the pseudocode.
+
+Thank you for your patience.
