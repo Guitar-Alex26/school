@@ -1,0 +1,29 @@
+ENUM App {
+    // Define codes with corresponding text and function
+    RED("Fire", "Call Fire Department and activate code Green")
+    BLUE("Cardiac Arrest", "Call cardiologist in charge")
+    YELLOW("Bomb threat", "Call 911 and activate code Green")
+    ORANGE("Hazardous material spill", "Call Health and Safety")
+    GREEN("Evacuation", "Push the emergency button or alert hospital workers")
+    CLEAR("Situation has been resolved", "Deactivate all code")
+    // Variables to store the text and function for each code
+    // Constructor to make a new code text and function
+    CONSTRUCTOR(text, function) {
+        SET this.text TO text
+        SET this.function TO function
+    }
+    // Method to get the text description of the code
+    METHOD getText() {
+        RETURN text
+    }
+    // Method to get the function or action necessary for the code
+    METHOD getFunction() {
+        RETURN function
+    }
+    METHOD main() {
+        // Loop through each code and print its values (text and function)
+        FOR EACH code IN App.values() {
+            PRINT code + ": " + code.getText() + ": " + code.getFunction()
+        }
+    }
+}
