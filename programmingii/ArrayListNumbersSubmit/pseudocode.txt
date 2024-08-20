@@ -1,0 +1,39 @@
+Start program
+Function writeToFile(fileName, content)
+    Open file for writing
+    Write content to file
+    Close file
+Function readFileLines(fileName): ArrayList<String>
+    Create empty list of lines
+    Open file for reading
+    For each line in the file
+        Add line to list
+    Close file
+    Return list of lines
+Function parseToIntegers(listOfStrings): ArrayList<Integer>
+    Create empty list of integers
+    For each string in listOfStrings
+        Split string by commas
+        For each part
+            Convert to integer and add to list of integers
+    Return list of integers
+Function sortIntegers(listOfIntegers): ArrayList<Integer>
+    Sort list of integers using selection sort
+    Return sorted list
+Function calculateAverage(listOfIntegers): Integer
+    Sum all integers in list
+    Divide sum by number of elements to get average
+    Return average
+Main
+    Define fileName and content
+    Write content to file
+    Read lines from file into listOfStrings
+    Print listOfStrings
+    Parse listOfStrings into listOfIntegers
+    Print listOfIntegers
+    Sort listOfIntegers
+    Print sorted listOfIntegers
+    Calculate and print average of sorted listOfIntegers
+End program
+
+Hopefully this is better than my previous submissions. Thank you.
